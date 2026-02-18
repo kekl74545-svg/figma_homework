@@ -263,6 +263,7 @@ body {
 .burger {
   font-size: 32px;
   cursor: pointer;
+  /* display:none; */
   user-select: none;
 }
 
@@ -345,6 +346,8 @@ body {
     width: 400px;
   }
 }
+
+
 .container {
   max-width: 1000px;
   margin: 30px auto;
@@ -410,12 +413,12 @@ body {
   padding: 20px 30px;
 }
 
-.card h3,
+.col h3,
 .brand h2 {
   margin-bottom: 12px;
 }
 
-.card a,
+.col a,
 .brand p {
   display: block;
   color: #c2c8df;
